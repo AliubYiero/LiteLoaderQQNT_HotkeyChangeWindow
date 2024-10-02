@@ -1,0 +1,16 @@
+{
+    "manifest_version": 4,
+    "type": "extension",
+    "name": "快速切换聊天窗口",
+    "slug": "hotkey_change_window",
+    "description": "通过快捷键 [Alt + 数字键] / [Alt + ↑] / [Alt + ↓] 切换聊天窗口, [Alt + Backspace] 退出群助手. ",
+    "version": "1.0.0",
+    "authors": [{
+        "name": "Yiero",
+        "link": "https://github.com/AliubYiero"
+    }],
+    "platform": ["win32", "linux", "darwin"],
+    "injects": {
+        "renderer": "./dist/renderer.js"
+    }
+}

@@ -1,0 +1,14 @@
+# Editor directories and files
+.idea
+.vscode
+.git
+
+# node_modules
+node_modules
+
+# Cache File
+**/*.dtmp
+**/*.bkp
+
+# pack file
+**/*.zip
